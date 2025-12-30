@@ -1,7 +1,6 @@
 from PySide6.QtWidgets import QGraphicsView
 from PySide6.QtGui import QBrush, QPainter
 from PySide6.QtCore import Qt
-from ChessBoard import ChessBoard
 
 
 
