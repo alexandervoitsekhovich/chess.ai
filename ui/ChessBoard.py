@@ -4,8 +4,8 @@ from constants import SQUARE_SIZE
 
 
 class ChessBoard(QGraphicsScene):
-    def __init__(self, parent=None):
-        super().__init__(self, parent)
+    def __init__(self):
+        super().__init__(self)
         self.squares_map = {}
         self.init_board()
 
